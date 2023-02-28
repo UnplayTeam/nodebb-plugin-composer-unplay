@@ -20,7 +20,7 @@ define('composer/categoryList', [
 		categoryList.updateTaskbar(postContainer, postData);
 
 		selector = categorySelector.init(listContainer.find('[component="category-selector"]'), {
-			privilege: 'topics:create',
+			privilege: 'other:move',
 			states: ['watching', 'notwatching', 'ignoring'],
 			onSelect: function (selectedCategory) {
 				if (postData.hasOwnProperty('cid')) {
@@ -43,7 +43,7 @@ define('composer/categoryList', [
 			.translateText(selector.selectedCategory ? selector.selectedCategory.name : '[[modules:composer.select_category]]')
 			.on('click', function () {
 				categorySelector.modal({
-					privilege: 'topics:create',
+					privilege: 'other:move',
 					states: ['watching', 'notwatching', 'ignoring'],
 					openOnLoad: true,
 					showLinks: false,

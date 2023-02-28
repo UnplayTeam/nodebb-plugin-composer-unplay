@@ -39,7 +39,7 @@ plugin.addAdminNavigation = async function (header) {
 	header.plugins.push({
 		route: '/plugins/composer-default',
 		icon: 'fa-edit',
-		name: 'Composer (Default)',
+		name: 'Composer (Unplay)',
 	});
 	return header;
 };

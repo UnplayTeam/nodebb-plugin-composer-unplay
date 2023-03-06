@@ -4,7 +4,7 @@ const url = require('url');
 
 const nconf = require.main.require('nconf');
 const winston = require.main.require('winston');
-const validator = require('validator');
+const validator = require.main.require('validator');
 
 const plugins = require.main.require('./src/plugins');
 const topics = require.main.require('./src/topics');

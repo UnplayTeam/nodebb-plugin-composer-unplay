@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-composer-default",
-  "version": "10.0.42",
-  "description": "Default composer for NodeBB",
+  "name": "nodebb-plugin-composer-unplay",
+  "version": "9.2.5",
+  "description": "Custom composer for Unplay",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NodeBB/nodebb-plugin-composer-default"
+    "url": "https://github.com/UnplayTeam/nodebb-plugin-composer-unplay"
   },
   "scripts": {
     "lint": "eslint ."
@@ -17,16 +17,16 @@
     "markdown"
   ],
   "author": {
-    "name": "NodeBB Team",
-    "email": "sales@nodebb.org"
+    "name": "Sam Hooker",
+    "email": "sam@unplay.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NodeBB/nodebb-plugin-composer-default/issues"
+    "url": "https://github.com/UnplayTeam/nodebb-plugin-composer-unplay/issues"
   },
   "readmeFilename": "README.md",
   "nbbpm": {
-    "compatibility": "^3.0.0"
+    "compatibility": "^2.5.0"
   },
   "dependencies": {
     "@textcomplete/contenteditable": "^0.1.12",
